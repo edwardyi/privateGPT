@@ -1,0 +1,2 @@
+# @see https://huggingface.co/transformers/v4.0.1/installation.html
+ENV TRANSFORMERS_CACHE {YOUR-TRANSFORMERS_CACHE-PATH}

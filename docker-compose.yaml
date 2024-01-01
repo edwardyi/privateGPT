@@ -1,6 +1,7 @@
 services:
   private-gpt:
-    build:
+    build: 
+      context: .
       dockerfile: Dockerfile.local
     volumes:
       - ./local_data/:/home/worker/app/local_data
